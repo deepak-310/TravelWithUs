@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel with us</title>
+<!--    font links-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<!--    custemise css file-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+<!--header section start-->
+<header>
+    <div id="menu-bar" class="fas fa-bars"></div>
+    <a href="#" class="logo">YA<span>T</span>RA</a>
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="booking.html" >book</a>
+        <a href="packages.html">packages</a>
+        <a href="services.html">services</a>
+        <a href="gallery.html">gallery</a>
+        <a href="reviwe.html">review</a>
+        <a href="register.html">Register</a>
+    </nav>
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="logn-btn"></i>
+    </div>
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here..">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+</header>
+<!--header section end-->
+
+<!--login form containt-->
+<div class="login-form-container">
+    <i class="fas fa-times" id="form-close">
+
+    </i>
+    <form action="login.php" method="POST">
+        <h3>login</h3>
+        <input type="email" class="box" name="email" placeholder="Enter Your Email">
+        <input type="password" class="box" name="pass" placeholder="Enter your Password">
+        <button class="btn" type="submit">login now</button>
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>forget password?<a href="#">click here</a> </p>
+        <p>dont have a account?<a href="register.html">register now</a> </p>
+    </form>
+</div>
+<!-- home screen section-->
+<section class="home" id="home">
+    <div class="content">
+        <h3>adventure is worthwhile</h3>
+        <p>discover new places with us, adventure is awaits</p>
+        <a href="gallery.html" class="btn"> discover more</a>
+    </div>
+    <div class="video-container">
+        <video src="images/vid-6.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+</section>
+<!--home screen end-->
+
+<!--custemise java scrip file-->
+<script src="script.js"></script>
+</body>
+</html>
